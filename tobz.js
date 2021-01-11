@@ -150,7 +150,7 @@ let state = {
     }
 }
 
-prefix = '#'
+prefix = '!'
 var timeStart = Date.now() / 1000
 moment.tz.setDefault('Asia/Jakarta').locale('id')
 
@@ -206,7 +206,7 @@ module.exports = tobz = async (tobz, message) => {
 
         const serial = sender.id
         const isAdmin = adminNumber.includes(sender.id)
-        const ownerNumber = '6281311850715@c.us'
+        const ownerNumber = '6282169369877@c.us'
         const isOwner = ownerNumber.includes(sender.id)
 
         if (isGroupMsg && GroupLinkDetector && !isGroupAdmins && !isAdmin && !isOwner){
