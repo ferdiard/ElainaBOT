@@ -9,7 +9,7 @@ const figlet = require('figlet')
 const lolcatjs = require('lolcatjs')
 const options = require('./options')
 
-// AUTO UPDATE BY NURUTOMO
+// AUTO UPDATE BY NURUTMO
 // THX FOR NURUTOMO
 // Cache handler and check for file change
 require('./tobz.js')
